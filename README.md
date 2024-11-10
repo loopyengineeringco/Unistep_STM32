@@ -31,3 +31,4 @@ Upload settings:
 - USB support (if available): "None"
 - U(S)ART support: "Disabled (No Serial support)"
 
+![Unistep_STM32 schematic](https://github.com/user-attachments/assets/cac4d29b-5e14-45a9-ae8c-483207f805c7)
