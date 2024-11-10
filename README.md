@@ -14,6 +14,7 @@ Differences to the UniStep project:
 - Higher maximum stepping rate (theoretically, not tested back to back)
 - STM32F030F4 is a 3v3 chip, so step/dir/enable need to be at 3v3 or voltage-divided down to 3v3.
 - dir/enable are broken out to individual IOs instead of being combined & needing ADC evaluation.
+- able to be reprogrammed without high voltage resetter
 
 Steps for preparing a bare STM32F030F4 chip:
 - BOOT0 (Pin1) put high, SWDIO and SWDCLK (pins 19 & 20 respectivelly) connected to STLINK V2, as well as ground to ground (Pin 15) and 3v3 to pins 4, 5, 16 (NRST, VDDA and VDD).
